@@ -1,5 +1,7 @@
 steps:
-  STG_AW_LOAD_PRODUCTCATEGORY-afced142-c25b-4213-92eb-189711f1617c:
+
+  STG_AW_LOAD_PRODUCTCATEGORY-e3c0a057-3dcf-482b-b3d6-dcb1d24f63ad:
+
     operation:
       config:
         insertStrategy: INSERT
@@ -17,8 +19,10 @@ steps:
         appliedNodeTests: []
         columns:
           - columnReference:
-              columnCounter: 4b1abe1c-1836-4ce2-8a5d-e040a50d6961
-              stepCounter: afced142-c25b-4213-92eb-189711f1617c
+
+              columnCounter: 3e2de9ce-d585-49b6-92ea-810e76e674c4
+              stepCounter: e3c0a057-3dcf-482b-b3d6-dcb1d24f63ad
+
             dataType: NUMBER(38,0)
             description: Primary key for ProductCategory records.
             hashColumns: []
@@ -27,12 +31,14 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 83242160-7d54-493c-aec9-423053f3a032
-                    stepCounter: da364f4b-e280-497d-8ba2-8dff53b0458e
+
+                  - columnCounter: 8e13ba80-4dd2-4627-a240-beb53bbb9e6f
+                    stepCounter: 17448d81-de51-4e2d-8745-9daaba38de4c
                 transform: ""
           - columnReference:
-              columnCounter: 8bdaa481-9455-4fb5-8adf-733761ca6b72
-              stepCounter: afced142-c25b-4213-92eb-189711f1617c
+              columnCounter: 97e2a58b-39de-40e6-9092-4aa0c9327821
+              stepCounter: e3c0a057-3dcf-482b-b3d6-dcb1d24f63ad
+
             dataType: VARCHAR(16777216)
             description: Category description.
             hashColumns: []
@@ -41,12 +47,14 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: e8dcf2ac-5072-4084-84ce-d8b1638725af
-                    stepCounter: da364f4b-e280-497d-8ba2-8dff53b0458e
+
+                  - columnCounter: 9764fed2-efa9-42e3-99eb-3a07e14fb90a
+                    stepCounter: 17448d81-de51-4e2d-8745-9daaba38de4c
                 transform: ""
           - columnReference:
-              columnCounter: e815f2e3-14b3-4f20-8102-5e2354425ee2
-              stepCounter: afced142-c25b-4213-92eb-189711f1617c
+              columnCounter: 433663d6-c9fc-4fbc-99e4-b071cbf5d848
+              stepCounter: e3c0a057-3dcf-482b-b3d6-dcb1d24f63ad
+
             dataType: VARCHAR(16777216)
             description: ROWGUIDCOL number uniquely identifying the record. Used to support a merge replication sample.
             hashColumns: []
@@ -55,12 +63,14 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 5deb59a2-fa36-4342-80ca-ad41ad9b9ae6
-                    stepCounter: da364f4b-e280-497d-8ba2-8dff53b0458e
+
+                  - columnCounter: c2f91d78-bea3-45c5-822a-da1ff9886957
+                    stepCounter: 17448d81-de51-4e2d-8745-9daaba38de4c
                 transform: ""
           - columnReference:
-              columnCounter: 54f24445-8875-4f4f-96d2-5befe470f7c0
-              stepCounter: afced142-c25b-4213-92eb-189711f1617c
+              columnCounter: 373620c3-f2a5-4228-bb40-6527af0ef04c
+              stepCounter: e3c0a057-3dcf-482b-b3d6-dcb1d24f63ad
+
             dataType: TIMESTAMP_NTZ(9)
             description: Date and time the record was last updated.
             hashColumns: []
@@ -69,8 +79,10 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 32ca1487-1518-479b-b971-9abe16dd37e4
-                    stepCounter: da364f4b-e280-497d-8ba2-8dff53b0458e
+
+                  - columnCounter: 5a1e80b1-a73f-404c-b1c5-0985fe5a023c
+                    stepCounter: 17448d81-de51-4e2d-8745-9daaba38de4c
+
                 transform: ""
         cteString: ""
         enabledColumnTestIDs: []
@@ -89,4 +101,5 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: afced142-c25b-4213-92eb-189711f1617c
+
+    stepCounter: e3c0a057-3dcf-482b-b3d6-dcb1d24f63ad

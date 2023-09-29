@@ -1,5 +1,5 @@
 steps:
-  AW_LOAD_PRODUCTCOSTHISTORY-fc6769d1-cd28-4cb2-bd4a-7a9317cc9133:
+  AW_LOAD_PRODUCTCOSTHISTORY-041bf49d-1b32-4e14-8be6-454a0585cfc8:
     operation:
       database: ""
       dataset: ""
@@ -14,8 +14,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 1434d919-4d5d-446c-afdf-46567b8c746d
-              stepCounter: fc6769d1-cd28-4cb2-bd4a-7a9317cc9133
+              columnCounter: bc298f4a-d1b2-4907-b281-ed3ab637ea94
+              stepCounter: 041bf49d-1b32-4e14-8be6-454a0585cfc8
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -29,8 +29,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 46a98452-9051-4b5a-8bba-fa309c70ce03
-              stepCounter: fc6769d1-cd28-4cb2-bd4a-7a9317cc9133
+              columnCounter: c0b8cfad-7004-439c-8eb3-21b76339e097
+              stepCounter: 041bf49d-1b32-4e14-8be6-454a0585cfc8
             config: {}
             dataType: TIMESTAMP_NTZ(9)
             defaultValue: ""
@@ -44,8 +44,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: de8d3586-6e4b-4f96-a812-40fbf486ace5
-              stepCounter: fc6769d1-cd28-4cb2-bd4a-7a9317cc9133
+              columnCounter: 3a488521-b166-454d-a2e7-361b58039a7f
+              stepCounter: 041bf49d-1b32-4e14-8be6-454a0585cfc8
             config: {}
             dataType: VARCHAR(16777216)
             defaultValue: ""
@@ -59,8 +59,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: b0afe188-82d6-41d5-afb8-659a34230e69
-              stepCounter: fc6769d1-cd28-4cb2-bd4a-7a9317cc9133
+              columnCounter: 7c34e393-b7b8-43df-8ca1-51c5c7c0c35e
+              stepCounter: 041bf49d-1b32-4e14-8be6-454a0585cfc8
             config: {}
             dataType: NUMBER(19,4)
             defaultValue: ""
@@ -74,8 +74,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 0e8cf442-d49c-481b-a18c-a5c4f7ce30a6
-              stepCounter: fc6769d1-cd28-4cb2-bd4a-7a9317cc9133
+              columnCounter: 780f5a10-4564-4b73-a6d6-fbe641ad1480
+              stepCounter: 041bf49d-1b32-4e14-8be6-454a0585cfc8
             config: {}
             dataType: TIMESTAMP_NTZ(9)
             defaultValue: ""
@@ -91,4 +91,4 @@ steps:
       sqlType: Source
       table: AW_LOAD_PRODUCTCOSTHISTORY
       type: sourceInput
-    stepCounter: fc6769d1-cd28-4cb2-bd4a-7a9317cc9133
+    stepCounter: 041bf49d-1b32-4e14-8be6-454a0585cfc8

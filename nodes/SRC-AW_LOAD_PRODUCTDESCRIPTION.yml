@@ -1,5 +1,5 @@
 steps:
-  AW_LOAD_PRODUCTDESCRIPTION-c457fe95-0ff3-4ac7-87dd-ab7cd75e596b:
+  AW_LOAD_PRODUCTDESCRIPTION-67093dd6-198a-465c-9a83-78d603a96917:
     operation:
       database: ""
       dataset: ""
@@ -14,8 +14,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: aa91f871-0232-4332-a5e7-ba85bb2a9ec6
-              stepCounter: c457fe95-0ff3-4ac7-87dd-ab7cd75e596b
+              columnCounter: 544e1f1b-7431-4542-8718-95d6af981f1c
+              stepCounter: 67093dd6-198a-465c-9a83-78d603a96917
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -29,8 +29,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 6cdb38eb-298e-48ec-84fa-ea7e506e09b4
-              stepCounter: c457fe95-0ff3-4ac7-87dd-ab7cd75e596b
+              columnCounter: 33ad60ab-3d73-4ed8-9941-f471c818fe71
+              stepCounter: 67093dd6-198a-465c-9a83-78d603a96917
             config: {}
             dataType: VARCHAR(400)
             defaultValue: ""
@@ -44,8 +44,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 848671fc-f254-42d5-949f-5594aed876ae
-              stepCounter: c457fe95-0ff3-4ac7-87dd-ab7cd75e596b
+              columnCounter: 5c65fe25-a70c-4376-ba81-ac982160e327
+              stepCounter: 67093dd6-198a-465c-9a83-78d603a96917
             config: {}
             dataType: VARCHAR(16777216)
             defaultValue: ""
@@ -59,8 +59,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 6452ff91-3976-48bd-9d46-d10304dde9ca
-              stepCounter: c457fe95-0ff3-4ac7-87dd-ab7cd75e596b
+              columnCounter: a5ba7826-48b0-4357-a1d8-7ba17b9df873
+              stepCounter: 67093dd6-198a-465c-9a83-78d603a96917
             config: {}
             dataType: TIMESTAMP_NTZ(9)
             defaultValue: ""
@@ -76,4 +76,4 @@ steps:
       sqlType: Source
       table: AW_LOAD_PRODUCTDESCRIPTION
       type: sourceInput
-    stepCounter: c457fe95-0ff3-4ac7-87dd-ab7cd75e596b
+    stepCounter: 67093dd6-198a-465c-9a83-78d603a96917

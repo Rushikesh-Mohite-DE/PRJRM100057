@@ -1,5 +1,7 @@
 steps:
-  STG_AW_LOAD_PRODUCTDESCRIPTION-8857c30c-89ae-4118-88e0-8f94d45b6303:
+
+  STG_AW_LOAD_PRODUCTDESCRIPTION-3bbcdc26-307f-41e1-9e5a-5cf5b7bad835:
+
     operation:
       config:
         insertStrategy: INSERT
@@ -17,8 +19,10 @@ steps:
         appliedNodeTests: []
         columns:
           - columnReference:
-              columnCounter: 5af3a19c-fbf2-4115-86d2-b1de90517b92
-              stepCounter: 8857c30c-89ae-4118-88e0-8f94d45b6303
+
+              columnCounter: 36572ccf-2a29-410d-9f2b-8bdb07d21c5f
+              stepCounter: 3bbcdc26-307f-41e1-9e5a-5cf5b7bad835
+
             dataType: NUMBER(38,0)
             description: Primary key for ProductDescription records.
             hashColumns: []
@@ -27,12 +31,14 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: aa91f871-0232-4332-a5e7-ba85bb2a9ec6
-                    stepCounter: c457fe95-0ff3-4ac7-87dd-ab7cd75e596b
+
+                  - columnCounter: 544e1f1b-7431-4542-8718-95d6af981f1c
+                    stepCounter: 67093dd6-198a-465c-9a83-78d603a96917
                 transform: ""
           - columnReference:
-              columnCounter: d84223cf-245c-4b8b-a4cf-51a835a12879
-              stepCounter: 8857c30c-89ae-4118-88e0-8f94d45b6303
+              columnCounter: 70424b3b-167b-4198-80b2-9c8eb81e2ffd
+              stepCounter: 3bbcdc26-307f-41e1-9e5a-5cf5b7bad835
+
             dataType: VARCHAR(400)
             description: Description of the product.
             hashColumns: []
@@ -41,12 +47,14 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 6cdb38eb-298e-48ec-84fa-ea7e506e09b4
-                    stepCounter: c457fe95-0ff3-4ac7-87dd-ab7cd75e596b
+
+                  - columnCounter: 33ad60ab-3d73-4ed8-9941-f471c818fe71
+                    stepCounter: 67093dd6-198a-465c-9a83-78d603a96917
                 transform: ""
           - columnReference:
-              columnCounter: bdeb89a2-1bf2-4af0-982e-9773d564b9be
-              stepCounter: 8857c30c-89ae-4118-88e0-8f94d45b6303
+              columnCounter: 5bdcc7bd-b8af-4396-96c1-685beed2d270
+              stepCounter: 3bbcdc26-307f-41e1-9e5a-5cf5b7bad835
+
             dataType: VARCHAR(16777216)
             description: ROWGUIDCOL number uniquely identifying the record. Used to support a merge replication sample.
             hashColumns: []
@@ -55,12 +63,14 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 848671fc-f254-42d5-949f-5594aed876ae
-                    stepCounter: c457fe95-0ff3-4ac7-87dd-ab7cd75e596b
+
+                  - columnCounter: 5c65fe25-a70c-4376-ba81-ac982160e327
+                    stepCounter: 67093dd6-198a-465c-9a83-78d603a96917
                 transform: ""
           - columnReference:
-              columnCounter: f00eae2c-743a-4634-b117-301f9d6f86d2
-              stepCounter: 8857c30c-89ae-4118-88e0-8f94d45b6303
+              columnCounter: 2963c792-b988-4f31-828c-8694dc97edd3
+              stepCounter: 3bbcdc26-307f-41e1-9e5a-5cf5b7bad835
+
             dataType: TIMESTAMP_NTZ(9)
             description: Date and time the record was last updated.
             hashColumns: []
@@ -69,8 +79,10 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 6452ff91-3976-48bd-9d46-d10304dde9ca
-                    stepCounter: c457fe95-0ff3-4ac7-87dd-ab7cd75e596b
+
+                  - columnCounter: a5ba7826-48b0-4357-a1d8-7ba17b9df873
+                    stepCounter: 67093dd6-198a-465c-9a83-78d603a96917
+
                 transform: ""
         cteString: ""
         enabledColumnTestIDs: []
@@ -89,4 +101,6 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: 8857c30c-89ae-4118-88e0-8f94d45b6303
+
+    stepCounter: 3bbcdc26-307f-41e1-9e5a-5cf5b7bad835
+
