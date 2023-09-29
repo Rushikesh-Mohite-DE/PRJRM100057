@@ -11,7 +11,7 @@ steps:
       deployEnabled: true
       description: ""
       isMultisource: false
-      locationName: SRC
+      locationName: STG
       materializationType: table
       metadata:
         appliedNodeTests: []

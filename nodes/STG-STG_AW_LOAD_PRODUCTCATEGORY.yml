@@ -1,5 +1,5 @@
 steps:
-  STG_AW_LOAD_PRODUCTDESCRIPTION-8857c30c-89ae-4118-88e0-8f94d45b6303:
+  STG_AW_LOAD_PRODUCTCATEGORY-afced142-c25b-4213-92eb-189711f1617c:
     operation:
       config:
         insertStrategy: INSERT
@@ -11,42 +11,42 @@ steps:
       deployEnabled: true
       description: ""
       isMultisource: false
-      locationName: SRC
+      locationName: STG
       materializationType: table
       metadata:
         appliedNodeTests: []
         columns:
           - columnReference:
-              columnCounter: 5af3a19c-fbf2-4115-86d2-b1de90517b92
-              stepCounter: 8857c30c-89ae-4118-88e0-8f94d45b6303
+              columnCounter: 4b1abe1c-1836-4ce2-8a5d-e040a50d6961
+              stepCounter: afced142-c25b-4213-92eb-189711f1617c
             dataType: NUMBER(38,0)
-            description: Primary key for ProductDescription records.
+            description: Primary key for ProductCategory records.
             hashColumns: []
             hashDetails: null
-            name: PRODUCTDESCRIPTIONID
+            name: PRODUCTCATEGORYID
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: aa91f871-0232-4332-a5e7-ba85bb2a9ec6
-                    stepCounter: c457fe95-0ff3-4ac7-87dd-ab7cd75e596b
+                  - columnCounter: 83242160-7d54-493c-aec9-423053f3a032
+                    stepCounter: da364f4b-e280-497d-8ba2-8dff53b0458e
                 transform: ""
           - columnReference:
-              columnCounter: d84223cf-245c-4b8b-a4cf-51a835a12879
-              stepCounter: 8857c30c-89ae-4118-88e0-8f94d45b6303
-            dataType: VARCHAR(400)
-            description: Description of the product.
+              columnCounter: 8bdaa481-9455-4fb5-8adf-733761ca6b72
+              stepCounter: afced142-c25b-4213-92eb-189711f1617c
+            dataType: VARCHAR(16777216)
+            description: Category description.
             hashColumns: []
             hashDetails: null
-            name: DESCRIPTION
+            name: NAME
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 6cdb38eb-298e-48ec-84fa-ea7e506e09b4
-                    stepCounter: c457fe95-0ff3-4ac7-87dd-ab7cd75e596b
+                  - columnCounter: e8dcf2ac-5072-4084-84ce-d8b1638725af
+                    stepCounter: da364f4b-e280-497d-8ba2-8dff53b0458e
                 transform: ""
           - columnReference:
-              columnCounter: bdeb89a2-1bf2-4af0-982e-9773d564b9be
-              stepCounter: 8857c30c-89ae-4118-88e0-8f94d45b6303
+              columnCounter: e815f2e3-14b3-4f20-8102-5e2354425ee2
+              stepCounter: afced142-c25b-4213-92eb-189711f1617c
             dataType: VARCHAR(16777216)
             description: ROWGUIDCOL number uniquely identifying the record. Used to support a merge replication sample.
             hashColumns: []
@@ -55,12 +55,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 848671fc-f254-42d5-949f-5594aed876ae
-                    stepCounter: c457fe95-0ff3-4ac7-87dd-ab7cd75e596b
+                  - columnCounter: 5deb59a2-fa36-4342-80ca-ad41ad9b9ae6
+                    stepCounter: da364f4b-e280-497d-8ba2-8dff53b0458e
                 transform: ""
           - columnReference:
-              columnCounter: f00eae2c-743a-4634-b117-301f9d6f86d2
-              stepCounter: 8857c30c-89ae-4118-88e0-8f94d45b6303
+              columnCounter: 54f24445-8875-4f4f-96d2-5befe470f7c0
+              stepCounter: afced142-c25b-4213-92eb-189711f1617c
             dataType: TIMESTAMP_NTZ(9)
             description: Date and time the record was last updated.
             hashColumns: []
@@ -69,8 +69,8 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 6452ff91-3976-48bd-9d46-d10304dde9ca
-                    stepCounter: c457fe95-0ff3-4ac7-87dd-ab7cd75e596b
+                  - columnCounter: 32ca1487-1518-479b-b971-9abe16dd37e4
+                    stepCounter: da364f4b-e280-497d-8ba2-8dff53b0458e
                 transform: ""
         cteString: ""
         enabledColumnTestIDs: []
@@ -79,14 +79,14 @@ steps:
               customSQL: ""
             dependencies:
               - locationName: SRC
-                nodeName: AW_LOAD_PRODUCTDESCRIPTION
+                nodeName: AW_LOAD_PRODUCTCATEGORY
             join:
-              joinCondition: FROM {{ ref('SRC', 'AW_LOAD_PRODUCTDESCRIPTION') }} "AW_LOAD_PRODUCTDESCRIPTION"
-            name: STG_AW_LOAD_PRODUCTDESCRIPTION
+              joinCondition: FROM {{ ref('SRC', 'AW_LOAD_PRODUCTCATEGORY') }} "AW_LOAD_PRODUCTCATEGORY"
+            name: STG_AW_LOAD_PRODUCTCATEGORY
             noLinkRefs: []
-      name: STG_AW_LOAD_PRODUCTDESCRIPTION
+      name: STG_AW_LOAD_PRODUCTCATEGORY
       overrideSQL: false
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: 8857c30c-89ae-4118-88e0-8f94d45b6303
+    stepCounter: afced142-c25b-4213-92eb-189711f1617c
