@@ -1,4 +1,5 @@
 steps:
+
   STG_JOIN-f675f31b-b6a5-4bdd-b934-a671c108cb04:
     operation:
       config:
@@ -439,3 +440,4 @@ steps:
       sqlType: Stage
       type: sql
     stepCounter: f675f31b-b6a5-4bdd-b934-a671c108cb04
+

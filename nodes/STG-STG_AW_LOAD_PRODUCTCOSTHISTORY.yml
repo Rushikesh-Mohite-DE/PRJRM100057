@@ -1,5 +1,7 @@
 steps:
+
   STG_AW_LOAD_PRODUCTCOSTHISTORY-6483d30f-b5de-4cb7-a496-690c08d9169c:
+
     operation:
       config:
         insertStrategy: INSERT
@@ -17,8 +19,10 @@ steps:
         appliedNodeTests: []
         columns:
           - columnReference:
+
               columnCounter: a9483b69-fcfa-4235-86c1-76ebe4b0aa49
               stepCounter: 6483d30f-b5de-4cb7-a496-690c08d9169c
+
             dataType: NUMBER(38,0)
             description: Product identification number. Foreign key to Product.ProductID
             hashColumns: []
@@ -27,12 +31,14 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
+
                   - columnCounter: bc298f4a-d1b2-4907-b281-ed3ab637ea94
                     stepCounter: 041bf49d-1b32-4e14-8be6-454a0585cfc8
                 transform: ""
           - columnReference:
               columnCounter: 8f573e85-5b26-45c5-b4a8-d556989dbdce
               stepCounter: 6483d30f-b5de-4cb7-a496-690c08d9169c
+
             dataType: TIMESTAMP_NTZ(9)
             description: Product cost start date.
             hashColumns: []
@@ -41,12 +47,14 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
+
                   - columnCounter: c0b8cfad-7004-439c-8eb3-21b76339e097
                     stepCounter: 041bf49d-1b32-4e14-8be6-454a0585cfc8
                 transform: ""
           - columnReference:
               columnCounter: d89d0e3b-8388-4b3c-a472-21960a1ad305
               stepCounter: 6483d30f-b5de-4cb7-a496-690c08d9169c
+
             dataType: VARCHAR(16777216)
             description: Product cost end date.
             hashColumns: []
@@ -55,12 +63,14 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
+
                   - columnCounter: 3a488521-b166-454d-a2e7-361b58039a7f
                     stepCounter: 041bf49d-1b32-4e14-8be6-454a0585cfc8
                 transform: ""
           - columnReference:
               columnCounter: bd793492-6055-480c-ae0f-967c9fa5f11c
               stepCounter: 6483d30f-b5de-4cb7-a496-690c08d9169c
+
             dataType: NUMBER(19,4)
             description: Standard cost of the product.
             hashColumns: []
@@ -69,12 +79,14 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
+
                   - columnCounter: 7c34e393-b7b8-43df-8ca1-51c5c7c0c35e
                     stepCounter: 041bf49d-1b32-4e14-8be6-454a0585cfc8
                 transform: ""
           - columnReference:
               columnCounter: 9f1eff65-4971-4e8a-961b-3218957619ec
               stepCounter: 6483d30f-b5de-4cb7-a496-690c08d9169c
+
             dataType: TIMESTAMP_NTZ(9)
             description: Date and time the record was last updated.
             hashColumns: []
@@ -83,8 +95,10 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
+
                   - columnCounter: 780f5a10-4564-4b73-a6d6-fbe641ad1480
                     stepCounter: 041bf49d-1b32-4e14-8be6-454a0585cfc8
+
                 transform: ""
         cteString: ""
         enabledColumnTestIDs: []
@@ -103,4 +117,6 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
+
     stepCounter: 6483d30f-b5de-4cb7-a496-690c08d9169c
+
