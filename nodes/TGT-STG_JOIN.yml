@@ -366,71 +366,24 @@ steps:
                   - columnCounter: 912a9a04-4ba2-422d-bd66-d68c2fe290c3
                     stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
                 transform: ""
-          - columnReference:
-              columnCounter: 5f5aa4b9-2240-482e-9d23-7211f668773a
-              stepCounter: f675f31b-b6a5-4bdd-b934-a671c108cb04
-            dataType: NUMBER(38,0)
-            description: Primary key for ProductDescription records.
-            hashColumns: []
-            hashDetails: null
-            name: PRODUCTDESCRIPTIONID
-            nullable: true
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: 36572ccf-2a29-410d-9f2b-8bdb07d21c5f
-                    stepCounter: 3bbcdc26-307f-41e1-9e5a-5cf5b7bad835
-                transform: ""
-          - columnReference:
-              columnCounter: a1d51eb9-9262-4b4c-8458-cde0842c2e99
-              stepCounter: f675f31b-b6a5-4bdd-b934-a671c108cb04
-            dataType: VARCHAR(400)
-            description: Description of the product.
-            hashColumns: []
-            hashDetails: null
-            name: DESCRIPTION
-            nullable: true
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: 70424b3b-167b-4198-80b2-9c8eb81e2ffd
-                    stepCounter: 3bbcdc26-307f-41e1-9e5a-5cf5b7bad835
-                transform: ""
-          - columnReference:
-              columnCounter: 9fc2a0ff-ee4a-431f-93b9-4300cd0158cb
-              stepCounter: f675f31b-b6a5-4bdd-b934-a671c108cb04
-            dataType: NUMBER(38,0)
-            description: Primary key for ProductCategory records.
-            hashColumns: []
-            hashDetails: null
-            name: PRODUCTCATEGORYID
-            nullable: true
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: 3e2de9ce-d585-49b6-92ea-810e76e674c4
-                    stepCounter: e3c0a057-3dcf-482b-b3d6-dcb1d24f63ad
-                transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
-          - customSQL:
+          - aliases:
+              STG_AW_LOAD_PRODUCT: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+              STG_AW_LOAD_PRODUCTCOSTHISTORY: 6483d30f-b5de-4cb7-a496-690c08d9169c
+            customSQL:
               customSQL: ""
             dependencies:
               - locationName: STG
                 nodeName: STG_AW_LOAD_PRODUCT
               - locationName: STG
-                nodeName: STG_AW_LOAD_PRODUCTCATEGORY
-              - locationName: STG
                 nodeName: STG_AW_LOAD_PRODUCTCOSTHISTORY
-              - locationName: STG
-                nodeName: STG_AW_LOAD_PRODUCTDESCRIPTION
             join:
               joinCondition: |-
                 FROM {{ ref('STG', 'STG_AW_LOAD_PRODUCTCOSTHISTORY') }} "STG_AW_LOAD_PRODUCTCOSTHISTORY"
                 INNER JOIN {{ ref('STG', 'STG_AW_LOAD_PRODUCT') }} "STG_AW_LOAD_PRODUCT"
-                ON "STG_AW_LOAD_PRODUCTCOSTHISTORY"./*COLUMN*/ = "STG_AW_LOAD_PRODUCT"./*COLUMN*/
-                INNER JOIN {{ ref('STG', 'STG_AW_LOAD_PRODUCTDESCRIPTION') }} "STG_AW_LOAD_PRODUCTDESCRIPTION"
-                ON "STG_AW_LOAD_PRODUCTCOSTHISTORY"./*COLUMN*/ = "STG_AW_LOAD_PRODUCTDESCRIPTION"./*COLUMN*/
-                INNER JOIN {{ ref('STG', 'STG_AW_LOAD_PRODUCTCATEGORY') }} "STG_AW_LOAD_PRODUCTCATEGORY"
-                ON "STG_AW_LOAD_PRODUCTCOSTHISTORY"./*COLUMN*/ = "STG_AW_LOAD_PRODUCTCATEGORY"./*COLUMN*/
+                ON STG_AW_LOAD_PRODUCTCOSTHISTORY."PRODUCTID" = STG_AW_LOAD_PRODUCT."PRODUCTID"
             name: STG_JOIN
             noLinkRefs: []
       name: STG_JOIN
