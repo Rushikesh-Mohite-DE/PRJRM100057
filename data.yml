@@ -1,7 +1,31 @@
 defaultStorageMapping: SRC
 installedPackages: {}
 jobs: {}
-locations: {}
+locations:
+  SRC:
+    mappingDefinitions:
+      "74":
+        database: COVID_19
+        schema: ADWKS_SOURCE
+      "75":
+        database: COVID_19
+        schema: ADWKS_SOURCE
+  STG:
+    mappingDefinitions:
+      "74":
+        database: COVID_19
+        schema: DEPLOY_QA_TARGET
+      "75":
+        database: COVID_19
+        schema: DEPLOY_PROD_TARGET
+  TGT:
+    mappingDefinitions:
+      "74":
+        database: COVID_19
+        schema: DEPLOY_QA_STAGE
+      "75":
+        database: COVID_19
+        schema: DEPLOY_PROD_STAGE
 macros: {}
 packages: {}
 projects: {}
