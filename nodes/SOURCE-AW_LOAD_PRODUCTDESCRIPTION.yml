@@ -1,0 +1,79 @@
+steps:
+  AW_LOAD_PRODUCTDESCRIPTION-bcbbca09-0eac-4b69-a18e-de75cd6a58ed:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationID: ""
+      locationName: SOURCE
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 140cd170-7be7-48d7-931e-95d7e1d43ddf
+              stepCounter: bcbbca09-0eac-4b69-a18e-de75cd6a58ed
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: Primary key for ProductDescription records.
+            name: PRODUCTDESCRIPTIONID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 379cb3fe-6b4c-468f-ae10-afa55d266904
+              stepCounter: bcbbca09-0eac-4b69-a18e-de75cd6a58ed
+            config: {}
+            dataType: VARCHAR(400)
+            defaultValue: ""
+            description: Description of the product.
+            name: DESCRIPTION
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 99075994-3d7b-4b0e-a445-49ac84082a36
+              stepCounter: bcbbca09-0eac-4b69-a18e-de75cd6a58ed
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ROWGUIDCOL number uniquely identifying the record. Used to support a merge replication sample.
+            name: ROWGUID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 6dde5ecd-24d6-42ba-b9aa-69003fb1e3ea
+              stepCounter: bcbbca09-0eac-4b69-a18e-de75cd6a58ed
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: Date and time the record was last updated.
+            name: MODIFIEDDATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SOURCE', 'AW_LOAD_PRODUCTDESCRIPTION') }}
+      name: AW_LOAD_PRODUCTDESCRIPTION
+      schema: ""
+      sqlType: Source
+      table: AW_LOAD_PRODUCTDESCRIPTION
+      type: sourceInput
+    stepCounter: bcbbca09-0eac-4b69-a18e-de75cd6a58ed
