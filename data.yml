@@ -1,6 +1,13 @@
 defaultStorageMapping: SRC
 installedPackages: {}
-jobs: {}
+jobs:
+  Job-16:
+    excludeSelector: ""
+    id: 16
+    includeSelector: "+{ location: TGT name: STG_JOIN }"
+    name: New Job
+    steps: []
+    subgraphs: []
 locations:
   SRC:
     mappingDefinitions:
