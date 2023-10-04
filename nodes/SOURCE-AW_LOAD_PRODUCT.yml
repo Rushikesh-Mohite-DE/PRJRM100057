@@ -1,0 +1,394 @@
+steps:
+  AW_LOAD_PRODUCT-cfe59448-7ee5-4af3-ac04-84ae59c80ee6:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationID: ""
+      locationName: SOURCE
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: bb865df7-31f1-4131-9a13-828c4c87a260
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: Primary key for Product records.
+            name: PRODUCTID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 5c62086e-79e1-4c24-be7a-51d7fe9a3c67
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Name of the product.
+            name: NAME
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: c797a553-c3c9-4c6c-a409-2f207aba878e
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: Unique product identification number.
+            name: PRODUCTNUMBER
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 76b22461-105e-4a5d-b36f-e523c1ee866b
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: 0 = Product is purchased, 1 = Product is manufactured in-house.
+            name: MAKEFLAG
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: b7142877-dd4b-4eb8-8a68-0457df67a768
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: 0 = Product is not a salable item. 1 = Product is salable.
+            name: FINISHEDGOODSFLAG
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: a207b607-71ae-4437-9af4-1d15f5afef0f
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Product color.
+            name: COLOR
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: cada8493-628d-45c6-9197-5ec04818cfda
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: Minimum inventory quantity.
+            name: SAFETYSTOCKLEVEL
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: a5a3a978-908e-4958-b84c-830c1ddd7acd
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: Inventory level that triggers a purchase order or work order.
+            name: REORDERPOINT
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 010e84da-0f93-4ed7-96be-e9d09674f71a
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: NUMBER(19,4)
+            defaultValue: ""
+            description: Standard cost of the product.
+            name: STANDARDCOST
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 4b54339b-5780-4f9d-90f1-8d178e7f4994
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: NUMBER(19,4)
+            defaultValue: ""
+            description: Selling price.
+            name: LISTPRICE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 8d7d0588-cea6-40b8-a03a-cb15b5afd944
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(5)
+            defaultValue: ""
+            description: Product size.
+            name: SIZE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: e7914bb1-0387-46f9-89f6-3b75b2d7558a
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(3)
+            defaultValue: ""
+            description: Unit of measure for Size column.
+            name: SIZEUNITMEASURECODE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: c198c017-a722-4d6e-8dd7-fe73de7fc42e
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(3)
+            defaultValue: ""
+            description: Unit of measure for Weight column.
+            name: WEIGHTUNITMEASURECODE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: c666de20-9b58-4241-bf1f-8aeabaebf753
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Product weight.
+            name: WEIGHT
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: ff324bc0-0b2a-4e8f-aec4-3a34185c7dc9
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: Number of days required to manufacture the product.
+            name: DAYSTOMANUFACTURE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 77a0cf73-c07f-441a-a4a6-b355b56fc2ce
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(2)
+            defaultValue: ""
+            description: R = Road, M = Mountain, T = Touring, S = Standard
+            name: PRODUCTLINE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 5713a3ac-a94c-4fd8-b3a3-0cc1abf0bf48
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(2)
+            defaultValue: ""
+            description: H = High, M = Medium, L = Low
+            name: CLASS
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 68258431-8e2c-472b-b617-89523eb08937
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(2)
+            defaultValue: ""
+            description: W = Womens, M = Mens, U = Universal
+            name: STYLE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 5a39af10-756b-40ad-92ac-dffa457a6451
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Product is a member of this product subcategory. Foreign key to ProductSubCategory.ProductSubCategoryID.
+            name: PRODUCTSUBCATEGORYID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: d6b467d7-a48a-4549-a62e-623d138f9ab1
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Product is a member of this product model. Foreign key to ProductModel.ProductModelID.
+            name: PRODUCTMODELID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 13523cdb-0fc1-40b4-b0c5-7d4b87536f48
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: Date the product was available for sale.
+            name: SELLSTARTDATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: aed3a606-f466-43bf-93d4-3e44407dd065
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Date the product was no longer available for sale.
+            name: SELLENDDATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: da146b97-8c8b-43f0-bcda-0217915649f5
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Date the product was discontinued.
+            name: DISCONTINUEDDATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: ba1e9030-132a-4b5f-b57e-8e1f12a7cf3b
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ROWGUIDCOL number uniquely identifying the record. Used to support a merge replication sample.
+            name: ROWGUID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 63cf1c98-dc94-4c20-926c-6add6f9beb9c
+              stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: Date and time the record was last updated.
+            name: MODIFIEDDATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SOURCE', 'AW_LOAD_PRODUCT') }}
+      name: AW_LOAD_PRODUCT
+      schema: ""
+      sqlType: Source
+      table: AW_LOAD_PRODUCT
+      type: sourceInput
+    stepCounter: cfe59448-7ee5-4af3-ac04-84ae59c80ee6
