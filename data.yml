@@ -4,7 +4,7 @@ jobs:
   Job-16:
     excludeSelector: ""
     id: 16
-    includeSelector: "+{ location: TGT name: STG_JOIN }"
+    includeSelector: "+{ location: TGT name: STG_JOIN } OR { location: TGT name: STG_JOIN1 } OR { location: TGT name: STG_JOIN10 } OR { location: TGT name: STG_JOIN2 } OR { location: TGT name: STG_JOIN3 } OR { location: TGT name: STG_JOIN4 } OR { location: TGT name: STG_JOIN5 } OR { location: TGT name: STG_JOIN6 } OR { location: TGT name: STG_JOIN7 } OR { location: TGT name: STG_JOIN8 } OR { location: TGT name: STG_JOIN9 }"
     name: New Job
     steps: []
     subgraphs: []
