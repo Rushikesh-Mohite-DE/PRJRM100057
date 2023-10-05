@@ -8,6 +8,13 @@ jobs:
     name: JOB1
     steps: []
     subgraphs: []
+  Job-18:
+    excludeSelector: ""
+    id: 18
+    includeSelector: "{ location: TGT name: STRAIGHT_STG_JOINSSSS }"
+    name: JOB2
+    steps: []
+    subgraphs: []
 locations:
   SRC:
     mappingDefinitions:
