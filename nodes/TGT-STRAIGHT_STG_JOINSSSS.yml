@@ -71,7 +71,7 @@ steps:
               - columnReferences:
                   - columnCounter: b7547adf-0a0b-49b9-9cd1-e76d079136fb
                     stepCounter: 405e8ebf-e248-4c4e-b9c5-07a48d828b1e
-                transform: ""
+                transform: "'tHIS IS NAME'"
           - columnReference:
               columnCounter: 60173064-ca79-469c-ba7d-d32ec916ab4a
               stepCounter: 951b4513-0448-4d0d-a948-cdfb5b828690
