@@ -71,7 +71,7 @@ steps:
               - columnReferences:
                   - columnCounter: 345ab64f-9233-48e4-8867-74edfe13b535
                     stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
-                transform: "'STG_JOIN1'"
+                transform: "'THIS IS CHANGED  STG_JOIN1'"
           - columnReference:
               columnCounter: 161fa801-5c9a-4046-8da2-5d5851df5e8f
               stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
