@@ -283,20 +283,6 @@ steps:
                     stepCounter: 405e8ebf-e248-4c4e-b9c5-07a48d828b1e
                 transform: ""
           - columnReference:
-              columnCounter: 8f0ee7fe-4367-4db8-b479-a31cac5b8589
-              stepCounter: 951b4513-0448-4d0d-a948-cdfb5b828690
-            dataType: VARCHAR(2)
-            description: W = Womens, M = Mens, U = Universal
-            hashColumns: []
-            hashDetails: null
-            name: STYLE
-            nullable: true
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: 4f653986-6977-42f5-a7f2-c41535d538c7
-                    stepCounter: 405e8ebf-e248-4c4e-b9c5-07a48d828b1e
-                transform: ""
-          - columnReference:
               columnCounter: dcf89eea-8971-448c-b360-54c0961f2f03
               stepCounter: 951b4513-0448-4d0d-a948-cdfb5b828690
             dataType: VARCHAR(16777216)
