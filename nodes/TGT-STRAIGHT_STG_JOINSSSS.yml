@@ -100,6 +100,27 @@ steps:
                   - columnCounter: 3c6aae5e-9882-495a-a732-e5be61bc5b1f
                     stepCounter: 405e8ebf-e248-4c4e-b9c5-07a48d828b1e
                 transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 0e48af56-7924-4885-a9cb-1d87a89ef0c5
+              stepCounter: 951b4513-0448-4d0d-a948-cdfb5b828690
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            keyColumnType: None
+            name: ADDED_COL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: "0"
+                    stepCounter: "0"
+                transform: "'tHIS IS ADDED COL'"
+            systemColumnType: None
+            transform: ""
           - columnReference:
               columnCounter: 00732c6c-83b8-41d3-aee1-2e1a685fd6b2
               stepCounter: 951b4513-0448-4d0d-a948-cdfb5b828690
