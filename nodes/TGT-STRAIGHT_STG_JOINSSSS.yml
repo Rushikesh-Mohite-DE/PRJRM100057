@@ -121,6 +121,27 @@ steps:
                 transform: "'tHIS IS ADDED COL'"
             systemColumnType: None
             transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: a080374a-c36a-4e47-b645-1cb2bcfdc775
+              stepCounter: 951b4513-0448-4d0d-a948-cdfb5b828690
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            keyColumnType: None
+            name: SECOND_ADDED_COL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: "0"
+                    stepCounter: "0"
+                transform: "'tHIS IS SECOND ADDED COL'"
+            systemColumnType: None
+            transform: ""
           - columnReference:
               columnCounter: 00732c6c-83b8-41d3-aee1-2e1a685fd6b2
               stepCounter: 951b4513-0448-4d0d-a948-cdfb5b828690
