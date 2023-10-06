@@ -1,5 +1,5 @@
 steps:
-  STG_JOIN1-484d9edd-f702-4eb9-86b8-974ae8e249cb:
+  JOB_1-d929ac4c-3de9-4e1f-a572-d26387876c0a:
     operation:
       config:
         insertStrategy: INSERT
@@ -17,8 +17,8 @@ steps:
         appliedNodeTests: []
         columns:
           - columnReference:
-              columnCounter: 3de8043e-4905-4918-baf1-2556ab60ae6c
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 543cacee-7b2a-431e-ba18-4e98366d7eed
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: TIMESTAMP_NTZ(9)
             description: Product cost start date.
             hashColumns: []
@@ -27,12 +27,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 8f573e85-5b26-45c5-b4a8-d556989dbdce
-                    stepCounter: 6483d30f-b5de-4cb7-a496-690c08d9169c
+                  - columnCounter: 3de8043e-4905-4918-baf1-2556ab60ae6c
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: 7e340053-595e-4f68-acf1-88074e9f6dd3
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 82f38d9e-f20c-473b-9388-927b39406ffd
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(16777216)
             description: Product cost end date.
             hashColumns: []
@@ -41,12 +41,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: d89d0e3b-8388-4b3c-a472-21960a1ad305
-                    stepCounter: 6483d30f-b5de-4cb7-a496-690c08d9169c
+                  - columnCounter: 7e340053-595e-4f68-acf1-88074e9f6dd3
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: 0f9d637a-ace5-4e99-8fe8-e271f8b887ac
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 5e1c54a2-2a97-45fd-b8ef-6a9091a7c221
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: NUMBER(38,0)
             description: Primary key for Product records.
             hashColumns: []
@@ -55,12 +55,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: cb335ceb-4fcf-424b-80ad-e4e9f3d04b41
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: 0f9d637a-ace5-4e99-8fe8-e271f8b887ac
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: 78732a9b-2885-4564-b7a2-80628b403ef4
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 72a1931c-d965-457d-9cbc-44151598a861
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(16777216)
             description: Name of the product.
             hashColumns: []
@@ -69,12 +69,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 345ab64f-9233-48e4-8867-74edfe13b535
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
-                transform: "'THIS IS CHANGED  STG_JOIN1"
+                  - columnCounter: 78732a9b-2885-4564-b7a2-80628b403ef4
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+                transform: ""
           - columnReference:
-              columnCounter: 161fa801-5c9a-4046-8da2-5d5851df5e8f
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: f125e587-6fb6-4b41-81df-736be8b74ea8
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(25)
             description: Unique product identification number.
             hashColumns: []
@@ -83,12 +83,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 20a8f196-507e-4720-9c02-e6f7a489cc10
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: 161fa801-5c9a-4046-8da2-5d5851df5e8f
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: d0ecd5c4-102d-4756-b73e-ebfd272b984c
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 25643344-a80e-4c6e-a64b-253149af2e3f
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(16777216)
             description: 0 = Product is purchased, 1 = Product is manufactured in-house.
             hashColumns: []
@@ -97,12 +97,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 82281fa4-b80b-4a22-bde7-2ddf9de7dcbf
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: d0ecd5c4-102d-4756-b73e-ebfd272b984c
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: d57ec915-bb78-480b-a7d8-342f9e09cef9
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: ad451b2e-b301-498f-bb88-6a470b564d62
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(16777216)
             description: 0 = Product is not a salable item. 1 = Product is salable.
             hashColumns: []
@@ -111,12 +111,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: a53b7aa6-d616-4624-a3b9-fb919c0b8c39
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: d57ec915-bb78-480b-a7d8-342f9e09cef9
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: b2691c8d-ddf5-4d65-b1c3-c7cb43b6df16
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 0eb8dd87-a7c2-412c-b46c-261b5fe77bfe
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(15)
             description: Product color.
             hashColumns: []
@@ -125,12 +125,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 24e06e80-9129-4e6e-8c89-651ba3409581
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: b2691c8d-ddf5-4d65-b1c3-c7cb43b6df16
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: f9538e98-b729-4566-babc-8681d35d2f5c
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: d2f10c96-eb3a-420b-b934-157c0dd1072e
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: NUMBER(38,0)
             description: Minimum inventory quantity.
             hashColumns: []
@@ -139,12 +139,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: ef4681d3-bc61-426a-8397-cf33c83fbc19
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: f9538e98-b729-4566-babc-8681d35d2f5c
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: f229cc1e-ce31-4bec-926a-97b8fcb9d81a
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: f36832be-1c75-4ba2-8df9-7c8d9c4da4d2
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: NUMBER(38,0)
             description: Inventory level that triggers a purchase order or work order.
             hashColumns: []
@@ -153,12 +153,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: d8399683-0bbd-4f0c-b24d-6711004dd3cb
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: f229cc1e-ce31-4bec-926a-97b8fcb9d81a
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: 2eb5c129-1f0e-4325-b16d-4b2d89b49563
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 0610df1b-d4b7-4f10-bdc8-5eba09feed15
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: NUMBER(19,4)
             description: Standard cost of the product.
             hashColumns: []
@@ -167,12 +167,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 34434a49-c0dd-4bbd-83f0-dd342ce3252b
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: 2eb5c129-1f0e-4325-b16d-4b2d89b49563
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: 762fb8d5-034d-4d7a-bf89-11aadde06a1f
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 43351953-8bb8-4403-b39c-d40364d1bde7
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: NUMBER(19,4)
             description: Selling price.
             hashColumns: []
@@ -181,12 +181,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 1cd4b650-3468-44ea-a448-0f06ae687665
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: 762fb8d5-034d-4d7a-bf89-11aadde06a1f
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: dac44b40-fa79-43ac-8cd5-5119daffaafa
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: d1a24fe6-7127-407a-b054-f842d6efdc02
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(5)
             description: Product size.
             hashColumns: []
@@ -195,12 +195,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 18a8fda3-31cf-4424-824b-4cb08e7434c1
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: dac44b40-fa79-43ac-8cd5-5119daffaafa
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: 44d3f182-cadf-400e-af95-67c95260c6e6
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 13514fff-4573-4e62-bcc2-fae8d8e76d51
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(3)
             description: Unit of measure for Size column.
             hashColumns: []
@@ -209,12 +209,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: e01ee8fc-e87a-4c72-a602-28a9116c24dc
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: 44d3f182-cadf-400e-af95-67c95260c6e6
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: d6240f40-be53-4e5a-a35e-ff2d7194ad99
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: dbfcefd3-869c-40eb-a7bc-490acd39c633
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(3)
             description: Unit of measure for Weight column.
             hashColumns: []
@@ -223,12 +223,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 66590d42-f367-4808-b95b-a2893d5eaff1
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: d6240f40-be53-4e5a-a35e-ff2d7194ad99
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: b157d84d-e114-4471-a30d-49cb518321cc
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 4fc6a7eb-68c9-4fc1-b2db-58711bfd9a41
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(16777216)
             description: Product weight.
             hashColumns: []
@@ -237,12 +237,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 0adbcfc1-c41a-44a9-9267-518b8ffbae14
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: b157d84d-e114-4471-a30d-49cb518321cc
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: faf5175c-d05c-4900-a11b-cf9d5bb10047
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 97f3ddad-3883-4c0b-a222-a1448b5ba47e
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: NUMBER(38,0)
             description: Number of days required to manufacture the product.
             hashColumns: []
@@ -251,12 +251,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 18cf3abd-eb16-45e4-a18d-033c699370a0
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: faf5175c-d05c-4900-a11b-cf9d5bb10047
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: ff776a17-e444-49ea-966c-62d77be6531c
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 0b58d771-354e-4aa4-b3e4-f52bd8d8c766
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(2)
             description: R = Road, M = Mountain, T = Touring, S = Standard
             hashColumns: []
@@ -265,12 +265,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: c0194744-ab91-418e-a99e-36e44298a351
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: ff776a17-e444-49ea-966c-62d77be6531c
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: 26e071e8-d0ef-4461-b809-a8d702b4b101
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: fd062293-6c28-40a9-8437-2303f9a755f4
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(2)
             description: H = High, M = Medium, L = Low
             hashColumns: []
@@ -279,12 +279,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: b063ac06-a910-4d02-bdf5-ccc1b543cc9c
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: 26e071e8-d0ef-4461-b809-a8d702b4b101
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: dee6b897-c9d2-444c-a060-2f0e64f784ca
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 4af8345e-7828-4dc6-8cdc-f436a818038d
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(2)
             description: W = Womens, M = Mens, U = Universal
             hashColumns: []
@@ -293,12 +293,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 430967be-3fc4-441c-83a0-d985da582091
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: dee6b897-c9d2-444c-a060-2f0e64f784ca
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: a20e1a35-ad36-4f35-8971-6afbd67797bf
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 38e1936f-4140-4961-b97b-4222c443cd83
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(16777216)
             description: Product is a member of this product subcategory. Foreign key to ProductSubCategory.ProductSubCategoryID.
             hashColumns: []
@@ -307,12 +307,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 7f75ea22-976b-4841-bb6f-cfb5cf3c60dc
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: a20e1a35-ad36-4f35-8971-6afbd67797bf
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: fc9efedc-a9dc-4211-9540-3eb10286d1a4
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: e27dbf56-cf8d-400b-b5d5-d0e71f8391f7
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(16777216)
             description: Product is a member of this product model. Foreign key to ProductModel.ProductModelID.
             hashColumns: []
@@ -321,12 +321,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 12792396-8604-476f-8ac6-0d19b02765f1
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: fc9efedc-a9dc-4211-9540-3eb10286d1a4
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: 66743c59-f9ad-45ce-9f09-bcf6a7f69a9f
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: ddc61868-3eb2-44c2-869c-15a91a4ceddd
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: TIMESTAMP_NTZ(9)
             description: Date the product was available for sale.
             hashColumns: []
@@ -335,12 +335,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 2485e155-2040-4747-8e71-a55a5200b701
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: 66743c59-f9ad-45ce-9f09-bcf6a7f69a9f
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: 9bf41927-3866-47a3-a54a-b44e8027227e
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: 1b3b6869-333c-4d25-a42d-1f22b2288b27
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(16777216)
             description: Date the product was no longer available for sale.
             hashColumns: []
@@ -349,12 +349,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 7a8c8ac9-5835-4fc0-bf5b-a44ba275baec
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: 9bf41927-3866-47a3-a54a-b44e8027227e
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
           - columnReference:
-              columnCounter: dcb327a4-b56e-4595-86ac-1bf4049c484b
-              stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+              columnCounter: e0790bd8-a0b9-4d64-bfdb-0d1794679b5a
+              stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
             dataType: VARCHAR(16777216)
             description: Date the product was discontinued.
             hashColumns: []
@@ -363,32 +363,24 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 912a9a04-4ba2-422d-bd66-d68c2fe290c3
-                    stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
+                  - columnCounter: dcb327a4-b56e-4595-86ac-1bf4049c484b
+                    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
                 transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
-          - aliases:
-              STG_AW_LOAD_PRODUCT: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
-              STG_AW_LOAD_PRODUCTCOSTHISTORY: 6483d30f-b5de-4cb7-a496-690c08d9169c
-            customSQL:
+          - customSQL:
               customSQL: ""
             dependencies:
-              - locationName: STG
-                nodeName: STG_AW_LOAD_PRODUCT
-              - locationName: STG
-                nodeName: STG_AW_LOAD_PRODUCTCOSTHISTORY
+              - locationName: TGT
+                nodeName: STG_JOIN1
             join:
-              joinCondition: |-
-                FROM {{ ref('STG', 'STG_AW_LOAD_PRODUCTCOSTHISTORY') }} "STG_AW_LOAD_PRODUCTCOSTHISTORY"
-                INNER JOIN {{ ref('STG', 'STG_AW_LOAD_PRODUCT') }} "STG_AW_LOAD_PRODUCT"
-                ON STG_AW_LOAD_PRODUCTCOSTHISTORY."PRODUCTID" = STG_AW_LOAD_PRODUCT."PRODUCTID"
-            name: STG_JOIN1
+              joinCondition: FROM {{ ref('TGT', 'STG_JOIN1') }} "STG_JOIN1"
+            name: JOB_1
             noLinkRefs: []
-      name: STG_JOIN1
+      name: JOB_1
       overrideSQL: false
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: 484d9edd-f702-4eb9-86b8-974ae8e249cb
+    stepCounter: d929ac4c-3de9-4e1f-a572-d26387876c0a
