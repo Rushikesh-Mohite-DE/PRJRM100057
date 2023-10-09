@@ -57,7 +57,7 @@ steps:
               - columnReferences:
                   - columnCounter: cb335ceb-4fcf-424b-80ad-e4e9f3d04b41
                     stepCounter: 54fa3f79-9fd9-4b97-b8ae-924ffa548569
-                transform: ""
+                transform: "{{PRD_ID('\"STG_AW_LOAD_PRODUCT\".\"PRODUCTID\"')}}"
           - columnReference:
               columnCounter: 8e33cfff-ea40-4e3a-8802-37b516e1ea91
               stepCounter: 4894336d-93ca-4721-9485-2a8fd58ee279

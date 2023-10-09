@@ -40,7 +40,17 @@ locations:
       "75":
         database: COVID_19
         schema: DEPLOY_PROD_STAGE
-macros: {}
+macros:
+  Macro-1:
+    id: "1"
+    macroString: |-
+      {%- macro unit_measure(column) -%}
+          CASE WHEN {{ column }} = 'EA' THEN 'SAP UNIT' ELSE 'NOT AWARE' END
+      {%- endmacro %}
+      
+      {%- macro PRD_ID(column) -%}
+          CASE WHEN {{ column }} = 707 THEN '1' ELSE '0' END
+      {%- endmacro %}
 packages: {}
 projects: {}
 stepTypes:
